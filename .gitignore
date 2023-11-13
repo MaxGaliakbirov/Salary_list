@@ -1,0 +1,7 @@
+/.idea
+/out/
+/Salary_list.iml
+# Project exclude paths
+/.gradle/
+/build/
+/build/classes/kotlin/main/
