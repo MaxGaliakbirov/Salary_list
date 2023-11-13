@@ -14,13 +14,16 @@ fun main () {
     println(table(namesArr, salaryArr))
 }
 fun table (names: List<String>?, salary: List<String>?) {
+    println("-".repeat(24))
     if (names != null && salary != null) {
-        for (i in 0..names.size) {
-            println("-".repeat(24))
+        for (i in 0..names.size-1) {
+
             print("|")
             print(names[i])
             print("|")
             println(salary[i])
+            println("-".repeat(24))
         }
     }
+
 }
